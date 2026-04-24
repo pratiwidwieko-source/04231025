@@ -6,7 +6,7 @@ class Transaction(val tipe: String, val jumlah: Int)
 
 class KantinPay {
     private val scanner = Scanner(System.`in`)
-    private val user = User("04231025", "Balikpapan29", 50000)
+    private val user = User("Dwi", "Balikpapan29", 50000)
     private val history = mutableListOf<Transaction>()
 
     fun start() {
